@@ -17,6 +17,7 @@ Categories:
 Key challenge: reviews often involve more than one category of complaint. 
 
 The models were sourced from HuggingFace, whose pipeline includes tokenization and lowercasing.
+Frameworks and libraries: Pytorch, pandas, sklearn, transformers
 Models:
 1. Zero-shot/Few-shot classification:
    - xlm-roberta-xnli (Natural Language Inference)
@@ -25,7 +26,7 @@ Models:
    - Bert-base-multilingual 
    - Danish-bert-botxo
 
-Applied oversampling to rebalance the classes
+Applied oversampling to rebalance the classes.
 
 Results:
                        Precision  Recall  F1 Score  Accuracy
